@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  height:100vh;
+}
+.sidebar {
+  width: 20%;
+  background-color: rgb(190, 190, 190);
+  display:flex;
+  flex-direction: column;
+}
+.map{
+  width:80%;
+ 
+}
+
+
+.search-container {
+  margin-top: 10px;
+  width: 100%;
+}
+.esri-menu__list-item{
+  background-color: lightgray;
+  border: solid white 1px;
+  font-weight: bold;
+}
+
+#searchWidget {
+  margin-left: 5%;
+  height:30px;
+  border: none;
+  width: 90%;
+}
+.esri-widget--button {
+  margin-left: 5px;
+  height: 35px;
+  background-color: grey;
+}
+.search-results {
+  margin: 20px 10px 0 10px;
+  border: solid white 1px;
+  height: 70%;
+}
+.result {
+  border-bottom: solid white 1px;
+  padding-left: 10px;
+}
